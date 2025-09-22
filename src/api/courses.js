@@ -22,4 +22,8 @@ export function deleteCourse(id) {
 
 export function fetchEnrollmentsByCourse(courseId) {
     return http.get(`/courses/${courseId}/enrollments`)
+
+// export function updateCourseDescription(id, courseDescription) {
+//     return http.patch(`/courses/${id}/description`, { courseDescription })
+//     }
 }
